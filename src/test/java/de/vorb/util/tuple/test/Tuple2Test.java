@@ -104,9 +104,9 @@ public class Tuple2Test {
   public void testHashCode() {
     final Tuple2<String, String> t1 = tuple2("a", "b");
     final Tuple2<String, String> t2 = tuple2("b", "a");
-    assertThat(t1.hashCode(), is(t2.hashCode()));
+    assertThat(t1.hashCode(), is(not(t2.hashCode())));
     assertThat(t1.hashCode(), is(t1.hashCode()));
-    assertThat(t1.hashCode(), is(t2.hashCode()));
+    assertThat(t2.hashCode(), is(t2.hashCode()));
     assertThat(t1.hashCode(), is(tuple2("a", "b").hashCode()));
   }
 
