@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Dev\Prg\Eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;C:\Dev\Prg\Eclipse\plugins\org.junit_4.8.2.v4_8_2_v20110321-1705\junit.jar" destdir="doc" doctitle="Tuple ‒ vorb.de" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.7" sourcefiles="src/main/java/de/vorb/util/tuple/Tuple.java,src/main/java/de/vorb/util/tuple/Tuple1.java,src/main/java/de/vorb/util/tuple/package-info.java,src/main/java/de/vorb/util/tuple/Tuple2.java" sourcepath="src/main/java;src/test/java" splitindex="true" use="true" version="true">
+            <link href="http://www.junit.org/junit/javadoc/4.5"/>
+            <link href="http://download.oracle.com/javase/7/docs/api/"/>
+        </javadoc>
+    </target>
+</project>
