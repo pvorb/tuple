@@ -4,6 +4,13 @@ tuple
 Tuple is a Java library that provides classes for working with generic tuples.
 
 
+Download
+--------
+
+You can obtain the latest binary distribution of this library at
+[the downloads section](https://github.com/pvorb/tuple/downloads).
+
+
 License
 -------
 
